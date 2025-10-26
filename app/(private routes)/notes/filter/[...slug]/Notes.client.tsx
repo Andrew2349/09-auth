@@ -52,9 +52,9 @@ export default function NotesClient({ tag, initialSearch = "" }: Props) {
             setCurrentPage={setCurPage}
           />
         )}
-        <button className={css.button}>
-          <Link href="/notes/action/create" className={css.link}>Create note +</Link>
-        </button>
+        <Link className={css.button} href={"/notes/action/create"}>
+            Create note +
+          </Link>
         
       </header>
 
